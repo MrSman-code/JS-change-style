@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trendy Styles</title>
+    <style>
+      #colorEl {
+        color: #3498db;
+      }
+
+      #handEl {
+        font-family: sans-serif;
+      }
+
+      #frameEl {
+        border: 2px solid #27ae60;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Trendy Styles</h1>
+      <p>Color: <span id="colorEl"></span></p>
+      <p>Hand: <span id="handEl"></span></p>
+      <div id="frameEl"></div>
+    </div>
+
+    <script>
+      var colorEl = document.getElementById("colorEl");
+      colorEl.innerHTML = "brown";
+      colorEl.style.color = "brown";
+
+      var handEl = document.getElementById("handEl");
+      handEl.innerHTML = "Christiano Ronaldo";
+      (handEl.style.fontFamily = "fantasy"), sans - serif;
+
+      var frameEl = document.getElementById("frameEl");
+      frameEl.style.border = "2px solid";
+    </script>
+  </body>
+</html>
